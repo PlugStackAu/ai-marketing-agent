@@ -1,34 +1,10 @@
-# Core FastAPI and web server dependencies
 fastapi==0.104.1
-uvicorn[standard]==0.24.0
+anthropic==0.7.7
 pydantic==2.4.2
 python-multipart==0.0.6
-
-# Claude API integration
-anthropic==0.7.7
-
-# Airtable integration (optional, for future use)
 pyairtable==2.1.0
 requests==2.31.0
-
-# Data validation and processing
 email-validator==2.1.0
 python-dateutil==2.8.2
-
-# Environment management
 python-dotenv==1.0.0
-
-# Development and testing
-pytest==7.4.3
-pytest-asyncio==0.21.1
-httpx==0.25.2
-
-# Logging and monitoring
-structlog==23.2.0
-
-# Optional: Database support for future expansion
-# sqlite3 is included with Python standard library
-# sqlalchemy==2.0.23  # Uncomment if you want ORM support later
-
-# Optional: Enhanced JSON processing
 orjson==3.9.10
